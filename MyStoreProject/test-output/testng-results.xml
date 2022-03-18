@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="24" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-18T12:30:47 CET" name="Suite" finished-at="2022-03-18T12:34:50 CET" duration-ms="243594">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_AccountCreationPage.validateCreateAccountPageTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_AccountCreationPage@4d5d943d]" name="validateCreateAccountPageTest" class="MyStoreProjectP.MyStoreProject.TC_AccountCreationPage"/>
+        <method signature="TC_AddToCartPage.addToCartTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_AddToCartPage@48f2bd5b]" name="addToCartTest" class="MyStoreProjectP.MyStoreProject.TC_AddToCartPage"/>
+        <method signature="TC_LoginPage.loginTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_LoginPage@7c7b252e]" name="loginTest" class="MyStoreProjectP.MyStoreProject.TC_LoginPage"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_AddToCartPage.addToCartTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_AddToCartPage@48f2bd5b]" name="addToCartTest" class="MyStoreProjectP.MyStoreProject.TC_AddToCartPage"/>
+        <method signature="TC_EndToEnd.addToCartTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_EndToEnd@368f2016]" name="addToCartTest" class="MyStoreProjectP.MyStoreProject.TC_EndToEnd"/>
+        <method signature="TC_OrderPage.addToCartTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_OrderPage@4c583ecf]" name="addToCartTest" class="MyStoreProjectP.MyStoreProject.TC_OrderPage"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TC_HomePage.orderHistoryDetailsTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_HomePage@4135c3b]" name="orderHistoryDetailsTest" class="MyStoreProjectP.MyStoreProject.TC_HomePage"/>
+        <method signature="TC_HomePage.wishListTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_HomePage@4135c3b]" name="wishListTest" class="MyStoreProjectP.MyStoreProject.TC_HomePage"/>
+        <method signature="TC_IndexPage.VerifyTitle()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_IndexPage@7cc0cdad]" name="VerifyTitle" class="MyStoreProjectP.MyStoreProject.TC_IndexPage"/>
+        <method signature="TC_IndexPage.verifyLogo()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_IndexPage@7cc0cdad]" name="verifyLogo" class="MyStoreProjectP.MyStoreProject.TC_IndexPage"/>
+        <method signature="TC_LoginPage.loginTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_LoginPage@7c7b252e]" name="loginTest" class="MyStoreProjectP.MyStoreProject.TC_LoginPage"/>
+        <method signature="TC_SearchResultPage.productAvailabilityTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_SearchResultPage@692f203f]" name="productAvailabilityTest" class="MyStoreProjectP.MyStoreProject.TC_SearchResultPage"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-03-18T12:30:47 CET" name="Test" finished-at="2022-03-18T12:34:50 CET" duration-ms="243594">
+      <class name="MyStoreProjectP.MyStoreProject.TC_AccountCreationPage">
+        <test-method is-config="true" signature="driverInitialiser()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_AccountCreationPage@4d5d943d]" started-at="2022-03-18T12:32:10 CET" name="driverInitialiser" finished-at="2022-03-18T12:32:25 CET" duration-ms="14605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialiser -->
+        <test-method signature="validateCreateAccountPageTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_AccountCreationPage@4d5d943d]" started-at="2022-03-18T12:32:25 CET" name="validateCreateAccountPageTest" finished-at="2022-03-18T12:32:43 CET" duration-ms="18328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateAccountPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_AccountCreationPage@4d5d943d]" started-at="2022-03-18T12:32:43 CET" name="tearDown" finished-at="2022-03-18T12:32:45 CET" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_AccountCreationPage -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_EndToEnd">
+        <test-method is-config="true" signature="driverInitialiser()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_EndToEnd@368f2016]" started-at="2022-03-18T12:32:45 CET" name="driverInitialiser" finished-at="2022-03-18T12:32:56 CET" duration-ms="11704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialiser -->
+        <test-method signature="addToCartTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_EndToEnd@368f2016]" started-at="2022-03-18T12:32:56 CET" name="addToCartTest" finished-at="2022-03-18T12:33:36 CET" duration-ms="40278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_EndToEnd@368f2016]" started-at="2022-03-18T12:33:36 CET" name="tearDown" finished-at="2022-03-18T12:33:38 CET" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_EndToEnd -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_IndexPage">
+        <test-method is-config="true" signature="driverInitialiser()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_IndexPage@7cc0cdad]" started-at="2022-03-18T12:31:20 CET" name="driverInitialiser" finished-at="2022-03-18T12:31:43 CET" duration-ms="22896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialiser -->
+        <test-method signature="VerifyTitle()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_IndexPage@7cc0cdad]" started-at="2022-03-18T12:31:43 CET" name="VerifyTitle" finished-at="2022-03-18T12:31:43 CET" duration-ms="15" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [My Store111] but found [My Store]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [My Store111] but found [My Store]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at MyStoreProjectP.MyStoreProject.TC_IndexPage.VerifyTitle(TC_IndexPage.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_IndexPage@7cc0cdad]" started-at="2022-03-18T12:31:43 CET" name="tearDown" finished-at="2022-03-18T12:31:44 CET" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="driverInitialiser()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_IndexPage@7cc0cdad]" started-at="2022-03-18T12:31:44 CET" name="driverInitialiser" finished-at="2022-03-18T12:31:53 CET" duration-ms="9317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialiser -->
+        <test-method signature="verifyLogo()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_IndexPage@7cc0cdad]" started-at="2022-03-18T12:31:53 CET" name="verifyLogo" finished-at="2022-03-18T12:31:53 CET" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_IndexPage@7cc0cdad]" started-at="2022-03-18T12:31:53 CET" name="tearDown" finished-at="2022-03-18T12:31:54 CET" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_IndexPage -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_LoginPage">
+        <test-method is-config="true" signature="driverInitialiser()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_LoginPage@7c7b252e]" started-at="2022-03-18T12:31:54 CET" name="driverInitialiser" finished-at="2022-03-18T12:32:03 CET" duration-ms="9534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialiser -->
+        <test-method signature="loginTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_LoginPage@7c7b252e]" started-at="2022-03-18T12:32:03 CET" name="loginTest" finished-at="2022-03-18T12:32:09 CET" duration-ms="5425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_LoginPage@7c7b252e]" started-at="2022-03-18T12:32:09 CET" name="tearDown" finished-at="2022-03-18T12:32:10 CET" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_LoginPage -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_OrderPage">
+        <test-method is-config="true" signature="driverInitialiser()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_OrderPage@4c583ecf]" started-at="2022-03-18T12:33:38 CET" name="driverInitialiser" finished-at="2022-03-18T12:33:51 CET" duration-ms="13277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialiser -->
+        <test-method signature="addToCartTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_OrderPage@4c583ecf]" started-at="2022-03-18T12:33:51 CET" name="addToCartTest" finished-at="2022-03-18T12:34:03 CET" duration-ms="12042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_OrderPage@4c583ecf]" started-at="2022-03-18T12:34:03 CET" name="tearDown" finished-at="2022-03-18T12:34:04 CET" duration-ms="1276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_OrderPage -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_HomePage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_HomePage@4135c3b]" started-at="2022-03-18T12:30:46 CET" name="beforeSuite" finished-at="2022-03-18T12:30:47 CET" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="driverInitialiser()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_HomePage@4135c3b]" started-at="2022-03-18T12:30:47 CET" name="driverInitialiser" finished-at="2022-03-18T12:31:00 CET" duration-ms="12883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialiser -->
+        <test-method signature="orderHistoryDetailsTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_HomePage@4135c3b]" started-at="2022-03-18T12:31:00 CET" name="orderHistoryDetailsTest" finished-at="2022-03-18T12:31:04 CET" duration-ms="4139" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at MyStoreProjectP.MyStoreProject.TC_HomePage.orderHistoryDetailsTest(TC_HomePage.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryDetailsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_HomePage@4135c3b]" started-at="2022-03-18T12:31:04 CET" name="tearDown" finished-at="2022-03-18T12:31:05 CET" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="driverInitialiser()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_HomePage@4135c3b]" started-at="2022-03-18T12:31:05 CET" name="driverInitialiser" finished-at="2022-03-18T12:31:15 CET" duration-ms="9774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialiser -->
+        <test-method signature="wishListTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_HomePage@4135c3b]" started-at="2022-03-18T12:31:15 CET" name="wishListTest" finished-at="2022-03-18T12:31:19 CET" duration-ms="4174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_HomePage@4135c3b]" started-at="2022-03-18T12:31:19 CET" name="tearDown" finished-at="2022-03-18T12:31:20 CET" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_HomePage@4135c3b]" started-at="2022-03-18T12:34:51 CET" name="afterSuite" finished-at="2022-03-18T12:34:54 CET" duration-ms="2960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_HomePage -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_SearchResultPage">
+        <test-method is-config="true" signature="driverInitialiser()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_SearchResultPage@692f203f]" started-at="2022-03-18T12:34:04 CET" name="driverInitialiser" finished-at="2022-03-18T12:34:18 CET" duration-ms="13204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialiser -->
+        <test-method signature="productAvailabilityTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_SearchResultPage@692f203f]" started-at="2022-03-18T12:34:18 CET" name="productAvailabilityTest" finished-at="2022-03-18T12:34:21 CET" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAvailabilityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_SearchResultPage@692f203f]" started-at="2022-03-18T12:34:21 CET" name="tearDown" finished-at="2022-03-18T12:34:22 CET" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_SearchResultPage -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_AddToCartPage">
+        <test-method is-config="true" signature="driverInitialiser()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_AddToCartPage@48f2bd5b]" started-at="2022-03-18T12:34:22 CET" name="driverInitialiser" finished-at="2022-03-18T12:34:34 CET" duration-ms="12007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialiser -->
+        <test-method signature="addToCartTest()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_AddToCartPage@48f2bd5b]" started-at="2022-03-18T12:34:34 CET" name="addToCartTest" finished-at="2022-03-18T12:34:49 CET" duration-ms="15047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyStoreProjectP.MyStoreProject.TC_AddToCartPage@48f2bd5b]" started-at="2022-03-18T12:34:49 CET" name="tearDown" finished-at="2022-03-18T12:34:50 CET" duration-ms="1555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_AddToCartPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

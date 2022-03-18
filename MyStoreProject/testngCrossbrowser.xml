@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowser" parallel="tests" thread-count="3">
+
+  <test thread-count="5" name="ChromeTest">
+<!-- parameter name="" value=""></parameter>  this parameter tag is needed when we pass the browser value from testng not from config file -->
+<parameter name="browser" value="chrome"></parameter>   
+ <classes> 
+      <class name="MyStoreProjectP.MyStoreProject.TC_IndexPage"/>
+ </classes>
+  </test> <!-- Test -->
+
+ <test name="FirefoxTest">
+<parameter name="browser" value="firefox"></parameter>
+ <classes>  
+      <class name="MyStoreProjectP.MyStoreProject.TC_IndexPage"/>
+ </classes>
+  </test> <!-- Test -->
+
+<test name="InternetExplorer">
+<parameter name="browser" value="IE"></parameter> 
+  <classes>  
+      <class name="MyStoreProjectP.MyStoreProject.TC_IndexPage"/>
+ </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
