@@ -8,8 +8,8 @@
     <classes>
       <class name="MyStoreProjectP.MyStoreProject.TC_HomePage">
         <methods>
-          <include name="orderHistoryDetailsTest"/>
           <include name="driverInitialiser"/>
+          <include name="wishListTest"/>
           <include name="afterSuite"/>
           <include name="beforeSuite"/>
           <include name="tearDown"/>
@@ -17,6 +17,7 @@
       </class> <!-- MyStoreProjectP.MyStoreProject.TC_HomePage -->
       <class name="MyStoreProjectP.MyStoreProject.TC_IndexPage">
         <methods>
+          <include name="verifyLogo"/>
           <include name="driverInitialiser"/>
           <include name="afterSuite"/>
           <include name="beforeSuite"/>
@@ -24,6 +25,60 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- MyStoreProjectP.MyStoreProject.TC_IndexPage -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_OrderPage">
+        <methods>
+          <include name="driverInitialiser"/>
+          <include name="addToCartTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_OrderPage -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_LoginPage">
+        <methods>
+          <include name="driverInitialiser"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_LoginPage -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_AccountCreationPage">
+        <methods>
+          <include name="driverInitialiser"/>
+          <include name="afterSuite"/>
+          <include name="validateCreateAccountPageTest"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_AccountCreationPage -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_AddToCartPage">
+        <methods>
+          <include name="addToCartTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="driverInitialiser"/>
+        </methods>
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_AddToCartPage -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_SearchResultPage">
+        <methods>
+          <include name="driverInitialiser"/>
+          <include name="productAvailabilityTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_SearchResultPage -->
+      <class name="MyStoreProjectP.MyStoreProject.TC_EndToEnd">
+        <methods>
+          <include name="addToCartTest"/>
+          <include name="driverInitialiser"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MyStoreProjectP.MyStoreProject.TC_EndToEnd -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
